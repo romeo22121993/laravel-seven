@@ -272,11 +272,6 @@ $categories    = \App\Models\Category::where('category_id', 0)->orderBy('categor
                                     </a>
                                 </li>
                                 <li class="dropdown yamm mega-menu">
-                                    <a href="{{ route('chat1') }}" >
-                                        @if(session()->get('language') == 'hindi') Chat1H @else Chat-Vue-Pusher @endif
-                                    </a>
-                                </li>
-                                <li class="dropdown yamm mega-menu">
                                     <a href="{{ route('game-tik-tok') }}" >
                                         @if(session()->get('language') == 'hindi') Game Tic Toc @else Game Tic Toc @endif
                                     </a>
